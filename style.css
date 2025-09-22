@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'AbacusFont';
+    src: url('ABACUS.ttf') format('truetype');
+}
+
+body {
+    background-color: black;
+    color: limegreen;
+    font-family: 'AbacusFont', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.controls {
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255,255,255,0.95);
+    padding: 16px 32px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 10;
+    color: #000;
+}
+
+.controls label {
+    color: #000;
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+#display {
+    font-size: 5em;
+    margin: 20px;
+    margin-top: 120px;
+    min-height: 1em;
+    text-align: center;
+}
+
+#display.big-number {
+    font-size: 15em;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #0f0;
+    margin-top: 120px;
+    min-height: 1em;
+}
+
+input {
+    font-size: 1em;
+}
+
+.answer-section {
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
