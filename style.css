@@ -1,12 +1,13 @@
+/*
 @font-face {
     font-family: 'AbacusFont';
     src: url('ABACUS.ttf') format('truetype');
 }
-
+*/
 body {
     background-color: black;
     color: limegreen;
-    font-family: 'AbacusFont', sans-serif;
+    font-family: sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,3 +64,4 @@ input {
     margin-top: 40px;
     text-align: center;
 }
+
